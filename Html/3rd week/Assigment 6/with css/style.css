@@ -1,0 +1,30 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+} 
+
+
+.green{
+    background-color: lightgreen;
+}
+
+.yellow{
+    background-color: rgb(248, 204, 6);
+}
+
+.blue{
+    background-color: lightskyblue;
+}
+
+.light_blue{
+    background-color: lightsteelblue;
+}
+
+.white{
+    background-color: white;
+}
+
+.border{
+    border: 0;
+}
+
