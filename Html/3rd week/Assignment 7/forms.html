@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>Personal information form</h1>
+    <form>
+        <label>Name:</label>
+        <input type="text" placeholder="username" required>
+        <br><br>
+
+        <label> Father Name:</label>
+        <input type="text" placeholder="Father name" required>
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" placeholder="Email" required>
+        <br><br>
+
+        <label>Password:</label>
+        <input type="password" placeholder="Password" required>
+        <br><br>
+
+        <label>Contact:</label>
+        <input type="number" placeholder="Contact" required>
+        <br><br>
+
+        <label>CNIC:</label>
+        <input type="number" pattern="\d{5}-\d{7}-\d" placeholder="12345-2323232-9" required maxlength="15">
+        <br><br>
+
+        <label>Date of birth:</label>
+        <input type="date" required>
+        <br><br>
+
+        <label>Gender:</label><br>
+        <label for="Gender">Male</label>
+        <input type="radio" name="Gender" value="Male" required>
+        <label for="Gender">Female</label>
+        <input type="radio" name="Gender" value="Female" required>
+        <br><br>
+
+        <label>Skills:</label>
+        <label>HTML</label>
+        <input type="checkbox">
+        <label>CSS</label>
+        <input type="checkbox">
+        <label>JavaScript</label>
+        <input type="checkbox">
+        <label>ReactJS</label>
+        <input type="checkbox">
+        <br><br>
+
+        <label for="Education">Education:</label>
+        <select name="Education" id="Education">
+            <option value="">Choose Education</option>
+            <option value="Matric">Matric</option>
+            <option value="Intermediate">Intermediate</option>
+            <option value="Bachelor">Bachelor</option>
+            <option value="Masters">Masters</option>
+        </select>
+        <br><br>
+
+        <label for="city">Select City:</label>
+        <select id="city" name="city">
+            <option value="">--Choose a city--</option>
+            <option value="karachi">Karachi</option>
+            <option value="lahore">Lahore</option>
+            <option value="islamabad">Islamabad</option>
+            <option value="peshawar">Peshawar</option>
+            <option value="quetta">Quetta</option>
+        </select>
+        <br><br>
+
+        <label>Upload CV:</label>
+        <input type="file">
+        <br><br>
+
+        <label for="Address">Address:</label>
+        <textarea name="Address" id="Address" required rows="3" cols="20"></textarea>
+        <br><br>
+
+        <label for="agreement">I agree to the terms and conditions</label>
+        <input type="checkbox" name="agreement" id="agreement">
+        <br><br>
+
+        <input type="reset" value="reset">
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>
