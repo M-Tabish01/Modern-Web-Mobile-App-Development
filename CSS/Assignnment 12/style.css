@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+nav {
+    z-index: 5;
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(8px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.header {
+
+    width: 88vw;
+
+    height: 8.5vh;
+    position: relative;
+    margin: 0 auto;
+}
+
+.logo,
+.links,
+.buttons {
+    display: inline-block;
+    /* border: 2px solid black; */
+    margin-top: 15px;
+
+}
+
+
+.logo {
+    /* position: absolute;
+    left: 30px; */
+    /* color: white; */
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.logo:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.links {
+    position: absolute;
+    left: 37%;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.links ul li {
+    display: inline-block;
+    margin-left: 15px;
+
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    border-bottom: 3px solid white;
+    cursor: pointer;
+}
+
+.buttons {
+    /* position: absolute;   
+    right: 30px; */
+    float: right;
+}
+
+.btn-1:hover, .btn-2:hover{
+    cursor: pointer;
+    filter: invert();
+}
+
+.btn-1 {
+    background-color: rgb(255, 255, 255);
+    padding: 4px 16px;
+    border-radius: 15px;
+    font-size: 16px;
+    border: none;
+    margin-right: 10px;
+}
+
+.btn-2 {
+    /* color: white;    */
+    padding: 4px 15px;
+    font-size: 16px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+/* For the main section */
+
+
+.bg-img {
+    background: linear-gradient(rgba(0, 0, 0, 0.511)), url(./images/hero.jpg);
+
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* .image{
+    background: url(./images/hero.jpg);
+    min-height: 80vh;
+} */
+
+main {
+
+    position: relative;
+
+    height: 60vh;
+}
+
+.hero {
+    position: absolute;
+    right: 50%;
+    left: 50%;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    width: 50vw;
+    text-align: center;
+
+}
+
+.hero h1 {
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 6.5px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: white;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+
+.btn-3 {
+    font-size: 19px;
+    padding: 7px 27px;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    border: 1.5px solid white;
+    color: white;
+    border-radius: 22px;
+    font-weight: 500;
+}
+
+.main-content {
+    margin-top: 7rem;
+    width: 25rem;
+    margin-left: 4.9rem;
+}
+
+.main-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.main-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+
+}
+
+.btn-4 {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.btn-4:hover{
+    cursor: pointer;
+    filter: invert();
+}
+
+.card-container{
+    width: 89vw;
+    margin: auto;
+    margin-bottom: 40rem;
+    margin-top: 2rem;
+}
+
+.card {
+    width: 275px;
+    padding: 5px;
+    border-radius: 8px;
+    /* border: 1px solid rgba(110, 109, 109, 0.518); */
+    float: left;
+    margin-left: 8px;
+    height: 350px;
+    box-shadow: 0px 0px 5px 0px;
+
+}
+
+.card-img img {
+    width: 265px;
+    border-radius: 12px;
+    margin-bottom: 11px;
+}
+
+.card h2 {
+    font-size: 27px;
+    margin-left: 20px;
+    margin-bottom: 6px;
+}
+
+.rating {
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.location{
+    margin-left: 20px;
+    font-weight: 600;
+    /* margin-bottom: 7px; */
+}
+
+
+.price{
+    
+    margin-left: 21px;
+    font-weight: 600;   
+}
+
+footer{
+    /* width: 300px; */
+    text-align: center;
+    height: 13.5vh;
+    /* margin: auto; */
+}
+
+.logos{
+    font-size: 22px;
+    word-spacing: 8px;
+    margin-bottom: 12px;
+}
+
+.logos:hover{
+    cursor: pointer;
+}
