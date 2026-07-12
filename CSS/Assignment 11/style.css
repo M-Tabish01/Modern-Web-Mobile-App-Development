@@ -1,0 +1,37 @@
+.container{
+    /* border: 2px solid red; */
+    font-family: sans-serif;
+}
+.card{
+    background-color: rgb(211, 208, 208);
+    border: 1px solid black;
+    float: left;
+    margin-top: 10px;
+    margin-left: 15px;
+    padding: 10px;
+    width: 250px;
+    border-radius: 4px;
+    /* box-shadow: 5px 3px 12px rgba(0, 0, 0, 0.4); */
+}
+
+.container::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+img{
+    width: 250px;
+    height: 330px;
+}
+
+button{
+    
+    background-color: black;
+    border-radius: 4px;
+    color: white;
+    padding: 7px;
+}
+
+.card:hover{
+    background-color: gray;
+}

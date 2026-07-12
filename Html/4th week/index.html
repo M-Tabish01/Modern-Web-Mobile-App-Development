@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Audio</h1>
+    <audio preload="metadata" controls>
+        <source src="./mp3/Khasara – Abdul Hannan & Samar Jafri (Official Audio) [-EhOs3Ol-v4].mp3" type="audio/mp3">
+        <source src="horse.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+    <hr>
+    <h1>video</h1>
+    <video width="500" controls preload="none" poster="wallpaperflare.com_wallpaper (16).jpg">
+        <source src="./video/videoplayback.mp4" type="video/mp4">
+        <source src="movie.webm" type="video/webm">
+        Your browser does not support the video tag.
+    </video>
+    <hr>
+    <h1>Iframe Video</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/CZEQyhxOack?si=retpu376NwsB1_M8"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+    <!-- Q# What is the purpose of preload?
+
+    The preload attribute for media tags tells your browser how much of a video or audio file to download before the user hits play.
+    1) Using preload="none" saves the most data by downloading absolutely nothing until the play button is clicked.
+    2) preload="metadata" is usually the best middle ground, fetching only basic details like the video's length and first frame.
+    3) preload="auto" downloads the entire file immediately for the fastest start time, but it consumes the most bandwidth.
+
+    Q#Difference between preload="none" and preload="auto"?
+
+    preload="none" is the data-saver. It waits for the user to click play before downloading anything.
+
+    preload="auto" is the speed-demon. It downloads the file immediately in the background so it's ready to play
+    instantly. -->
+</body>
+
+</html>
